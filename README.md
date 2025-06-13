@@ -1,2 +1,24 @@
-# fichas-clientes-crc
-Tengo este problema quiero crear un plugin WordPress el mismo  hace lo siguiente. crea al cliente una ficha de tratamiento al cliente automaticamente cuando se crea o registra un nuevo cliente  . La ficha la puede ver el cliente desde un apartado historia clínica en my account  de cliente de woocommerce. La pueden modificar solo los técnicos nivel 1 y nivel 2 a quienes se les asigna esos roles desde el perfil del usuario en un desplegable desde el admin. Los tecnicos Nivel 1 y Nivel 2 tienen restringido el acceso al admin no pueden ver el dashboard. Los roles los asigna el administrador desde el dashboard puede tener mas de un role designado.El administrador asigna que tecnico le corresponde a cada cliente.   Se entiende? Cómo lo resolverias como experto de woocommerce y WordPress y php 8.2 
+# Ficha Cliente Woo
+
+Este plugin permite gestionar fichas clínicas y turnos para clientes en WooCommerce. Incluye roles personalizados, agenda visual y compatibilidad con Google Calendar.
+
+## 🚀 Instalación rápida
+
+1. Sube y activa el plugin desde el panel de WordPress.
+2. No es necesario Composer para funciones básicas.
+3. El soporte para Google Calendar requiere instalación de dependencias.
+
+## 🔗 Google Calendar (opcional)
+
+1. Ejecuta en local:
+
+```
+composer require google/apiclient:^2.0
+```
+
+2. Sube la carpeta `/vendor` generada al directorio del plugin.
+3. Descomenta la línea del `autoload.php` en `ficha-cliente-woo.php`.
+
+---
+
+© Plugin desarrollado a medida.
